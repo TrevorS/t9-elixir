@@ -1,20 +1,17 @@
 # T9
 
-**TODO: Add description**
+###### Compile the project:
+```
+$ mix compile
+```
 
-## Installation
+###### Run T9 in the REPL:
+```
+$ iex -S mix
+```
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed as:
-
-  1. Add t9 to your list of dependencies in `mix.exs`:
-
-        def deps do
-          [{:t9, "~> 0.0.1"}]
-        end
-
-  2. Ensure t9 is started before your application:
-
-        def application do
-          [applications: [:t9]]
-        end
-
+###### Convert numbers to words:
+```
+iex(1)> T9.to_words("43556")
+["hello"]
+```
